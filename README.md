@@ -3,8 +3,10 @@
 My answers for Advent of Code 2015.[^1]
 
 Language of choice: [Python 3](https://www.python.org/)
+
 * [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
 
+I actually started Advent of Code in 2017 using Java. I decided to do the previous 2 years in Python to practice a bit and because it is the go-to language for most of the competitive programmers that I follow - and don't get me wrong, I'm super slow, but it doesn't prevent me from liking the subject and watch others. I'm here for the fun of it. :smile:
 
 | Problem | Solution | Blog Post | Stars |
 | ------- | -------- | --------- | ----- |
