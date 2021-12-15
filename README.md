@@ -1,5 +1,7 @@
 # [Advent of Code 2015](https://adventofcode.com/2021)
 
+![Tests](https://github.com/eduellery/aoc-2015/actions/workflows/python-package.yml/badge.svg)
+
 My answers for Advent of Code 2015.[^1]
 
 Language of choice: [Python 3](https://www.python.org/)
