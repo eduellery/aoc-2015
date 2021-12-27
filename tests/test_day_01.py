@@ -2,7 +2,7 @@ import pytest
 from resources import read_as_string
 from aoc.day_01 import Day01
 
-day01_input: str = read_as_string('/Users/eehilti/Developer/repositories/github/aoc-2015/tests/day01.in')
+day01_input: str = read_as_string('tests/day01.in')
 
 
 @pytest.mark.parametrize("test_input, expected", [
