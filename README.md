@@ -12,7 +12,7 @@ I actually started Advent of Code in 2017 using Java. I decided to do the previo
 
 | Problem | Solution | Blog Post | Stars |
 | ------- | -------- | --------- | ----- |
-| [Day 1: Not Quite Lisp ](https://adventofcode.com/2015/day/1)                        | ----------- | ----------- | :star: :star: |
+| [Day 1: Not Quite Lisp ](https://adventofcode.com/2015/day/1)                        | [day_01.py](src/aoc/day_01.py) | ----------- | :star: :star: |
 | [Day 2: I Was Told There Would Be No Math](https://adventofcode.com/2015/day/2)      | ----------- | ----------- | :star: :star: |
 | [Day 3: Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3) | ----------- | ----------- | :star: :star: |
 | [Day 4: The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4)             | ----------- | ----------- | :star: :star: |
