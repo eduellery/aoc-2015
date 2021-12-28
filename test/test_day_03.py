@@ -3,7 +3,7 @@ from aoc.day_03 import Day03
 
 from resources import read_as_string
 
-aoc_input: str = read_as_string('tests/day03.in')
+aoc_input: str = read_as_string('test/day03.in')
 
 
 @pytest.mark.parametrize("test_input, expected", [

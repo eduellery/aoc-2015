@@ -5,7 +5,7 @@ from aoc.day_02 import Day02
 
 from resources import read_as_string_list
 
-aoc_input: List[str] = read_as_string_list('tests/day02.in')
+aoc_input: List[str] = read_as_string_list('test/day02.in')
 
 
 @pytest.mark.parametrize("test_input, expected", [
