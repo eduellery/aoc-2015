@@ -17,8 +17,8 @@ I actually started Advent of Code in 2017 using Java. I decided to do the previo
 | ------- | -------- | --------- | ----- |
 | [Day 1: Not Quite Lisp ](https://adventofcode.com/2015/day/1)                        |[day_01.py](src/aoc/day_01.py)|-----------| :star: :star: |
 | [Day 2: I Was Told There Would Be No Math](https://adventofcode.com/2015/day/2)      |[day_02.py](src/aoc/day_02.py)|-----------| :star: :star: |
-| [Day 3: Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3) |[day_03.py](src/aoc/day_03.py)|-----------| :star: :star: |
-| [Day 4: The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4)             |[day_04.py](src/aoc/day_04.py)|[day04.md](blog/day04.md)| :star: :star: |
+| [Day 3: Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3) |[day_03.py](src/aoc/day_03.py)|[day03.md](blog/day03.md)| :star: :star: |
+| [Day 4: The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4)             |[day_04.py](src/aoc/day_04.py)|-----------| :star: :star: |
 | [Day 5: Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) |[day_05.py](src/aoc/day_05.py)|[day05.md](blog/day05.md)| :star: :star: |
 | [Day 6: Probably a Fire Hazard](https://adventofcode.com/2015/day/6)                 |-----------|-----------| :star: :star: |
 | [Day 7: Some Assembly Required](https://adventofcode.com/2015/day/7)                 |-----------|-----------| :star: :star: |
