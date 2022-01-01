@@ -20,7 +20,7 @@ I actually started Advent of Code in 2017 using Java. I decided to do the previo
 | [Day 3: Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3) |[day_03.py](src/aoc/day_03.py)|[day03.md](blog/day03.md)| :star: :star: |
 | [Day 4: The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4)             |[day_04.py](src/aoc/day_04.py)|-----------| :star: :star: |
 | [Day 5: Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) |[day_05.py](src/aoc/day_05.py)|[day05.md](blog/day05.md)| :star: :star: |
-| [Day 6: Probably a Fire Hazard](https://adventofcode.com/2015/day/6)                 |-----------|-----------| :star: :star: |
+| [Day 6: Probably a Fire Hazard](https://adventofcode.com/2015/day/6)                 |[day_06.py](src/aoc/day_06.py)|-----------| :star: :star: |
 | [Day 7: Some Assembly Required](https://adventofcode.com/2015/day/7)                 |-----------|-----------| :star: :star: |
 | [Day 8: Matchsticks](https://adventofcode.com/2015/day/8)                            |-----------|-----------| :star: :star: |
 | [Day 9: All in a Single Night](https://adventofcode.com/2015/day/9)                  |-----------|-----------| :star: :star: |
