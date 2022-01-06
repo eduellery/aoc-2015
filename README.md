@@ -21,10 +21,10 @@ I actually started Advent of Code in 2017 using Java. I decided to do the previo
 | [Day 4: The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4)             |[day_04.py](src/aoc/day_04.py)|-----------| :star: :star: |
 | [Day 5: Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) |[day_05.py](src/aoc/day_05.py)|[day05.md](blog/day05.md)| :star: :star: |
 | [Day 6: Probably a Fire Hazard](https://adventofcode.com/2015/day/6)                 |[day_06.py](src/aoc/day_06.py)|-----------| :star: :star: |
-| [Day 7: Some Assembly Required](https://adventofcode.com/2015/day/7)                 |-----------|-----------| :star: :star: |
-| [Day 8: Matchsticks](https://adventofcode.com/2015/day/8)                            |-----------|-----------| :star: :star: |
-| [Day 9: All in a Single Night](https://adventofcode.com/2015/day/9)                  |-----------|-----------| :star: :star: |
-| [Day 10: Elves Look, Elves Say](https://adventofcode.com/2015/day/10)                |-----------|-----------| :star: :star: |
+| [Day 7: Some Assembly Required](https://adventofcode.com/2015/day/7)                 |[day_07.py](src/aoc/day_07.py)|-----------| :star: :star: |
+| [Day 8: Matchsticks](https://adventofcode.com/2015/day/8)                            |[day_08.py](src/aoc/day_08.py)|-----------| :star: :star: |
+| [Day 9: All in a Single Night](https://adventofcode.com/2015/day/9)                  |[day_09.py](src/aoc/day_09.py)|[day09.md](blog/day09.md)| :star: :star: |
+| [Day 10: Elves Look, Elves Say](https://adventofcode.com/2015/day/10)                |[day_10.py](src/aoc/day_10.py)|-----------| :star: :star: |
 | [Day 11: Corporate Policy](https://adventofcode.com/2015/day/11)                     |-----------|-----------| :star: :star: |
 | [Day 12: JSAbacusFramework.io](https://adventofcode.com/2015/day/12)                 |-----------|-----------| :star: :star: |
 | [Day 13: Knights of the Dinner Table](https://adventofcode.com/2015/day/13)          |-----------|-----------| :star: :star: |
