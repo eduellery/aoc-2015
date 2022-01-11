@@ -2,7 +2,7 @@ import pytest
 
 from aoc.day_11 import Day11
 
-aoc_input: str = 'hxbxwxba'
+aoc_input = Day11('hxbxwxba')
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -14,8 +14,8 @@ def test_solve_1_examples(test_input: str, expected: str):
 
 
 def test_solve_1_input():
-    assert Day11(aoc_input).solve1() == 'hxbxxyzz'
+    assert aoc_input.solve1() == 'hxbxxyzz'
 
 
 def test_solve_2_input():
-    assert Day11(aoc_input).solve2() == 'hxcaabcc'
+    assert aoc_input.solve2() == 'hxcaabcc'
