@@ -1,4 +1,5 @@
 from aoc.day_13 import Day13
+
 from resources import read_as_string_list
 
 test_day = Day13(read_as_string_list('test/day13.example'))
