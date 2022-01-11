@@ -25,11 +25,11 @@ I actually started Advent of Code in 2017 using Java. I decided to do the previo
 | [Day 8: Matchsticks](https://adventofcode.com/2015/day/8)                            |[day_08.py](src/aoc/day_08.py)|-----------| :star: :star: |
 | [Day 9: All in a Single Night](https://adventofcode.com/2015/day/9)                  |[day_09.py](src/aoc/day_09.py)|[day09.md](blog/day09.md)| :star: :star: |
 | [Day 10: Elves Look, Elves Say](https://adventofcode.com/2015/day/10)                |[day_10.py](src/aoc/day_10.py)|-----------| :star: :star: |
-| [Day 11: Corporate Policy](https://adventofcode.com/2015/day/11)                     |-----------|-----------| :star: :star: |
-| [Day 12: JSAbacusFramework.io](https://adventofcode.com/2015/day/12)                 |-----------|-----------| :star: :star: |
-| [Day 13: Knights of the Dinner Table](https://adventofcode.com/2015/day/13)          |-----------|-----------| :star: :star: |
-| [Day 14: Reindeer Olympics](https://adventofcode.com/2015/day/14)                    |-----------|-----------| :star: :star: |
-| [Day 15: Science for Hungry People](https://adventofcode.com/2015/day/15)            |-----------|-----------| :star: :star: |
+| [Day 11: Corporate Policy](https://adventofcode.com/2015/day/11)                     |[day_11.py](src/aoc/day_11.py)|-----------| :star: :star: |
+| [Day 12: JSAbacusFramework.io](https://adventofcode.com/2015/day/12)                 |[day_12.py](src/aoc/day_12.py)|-----------| :star: :star: |
+| [Day 13: Knights of the Dinner Table](https://adventofcode.com/2015/day/13)          |[day_13.py](src/aoc/day_13.py)|-----------| :star: :star: |
+| [Day 14: Reindeer Olympics](https://adventofcode.com/2015/day/14)                    |[day_14.py](src/aoc/day_14.py)|-----------| :star: :star: |
+| [Day 15: Science for Hungry People](https://adventofcode.com/2015/day/15)            |[day_15.py](src/aoc/day_15.py)|-----------| :star: :star: |
 | [Day 16: Aunt Sue](https://adventofcode.com/2015/day/16)                             |-----------|-----------| :star: :star: |
 | [Day 17: No Such Thing as Too Much](https://adventofcode.com/2015/day/17)            |-----------|-----------| :star: :star: |
 | [Day 18: Like a GIF For Your Yard](https://adventofcode.com/2015/day/18)             |-----------|-----------| :star: :star: |
