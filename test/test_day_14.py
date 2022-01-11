@@ -1,4 +1,5 @@
 from aoc.day_14 import Day14
+
 from resources import read_as_string_list
 
 test_input = Day14(['Comet can fly 14 km/s for 10 seconds, but then must rest for 127 seconds.',
