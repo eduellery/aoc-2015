@@ -1,4 +1,5 @@
 from aoc.day_09 import Day09
+
 from resources import read_as_string_list
 
 test_day = Day09(['London to Dublin = 464', 'London to Belfast = 518', 'Dublin to Belfast = 141'])
