@@ -3,7 +3,7 @@ from aoc.day_01 import Day01
 
 from resources import read_as_string
 
-aoc_input: str = read_as_string('test/day01.in')
+aoc_input = Day01(read_as_string('test/day01.in'))
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -23,7 +23,7 @@ def test_solve_1_examples(test_input: str, expected: int):
 
 
 def test_solve_1_input():
-    assert Day01(aoc_input).solve1() == 280
+    assert aoc_input.solve1() == 280
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -35,4 +35,4 @@ def test_solve_2_examples(test_input: str, expected: int):
 
 
 def test_solve_2_input():
-    assert Day01(aoc_input).solve2() == 1_797
+    assert aoc_input.solve2() == 1_797
