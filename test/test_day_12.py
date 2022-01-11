@@ -1,9 +1,9 @@
 import pytest
-
 from aoc.day_12 import Day12
+
 from resources import read_as_string
 
-aoc_input: str = read_as_string('test/day12.in')
+aoc_input = Day12(read_as_string('test/day12.in'))
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -21,7 +21,7 @@ def test_solve_1_examples(test_input: str, expected: int):
 
 
 def test_solve_1_input():
-    assert Day12(aoc_input).solve1() == 156_366
+    assert aoc_input.solve1() == 156_366
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -35,4 +35,4 @@ def test_solve_2_examples(test_input: str, expected: int):
 
 
 def test_solve_2_input():
-    assert Day12(aoc_input).solve2() == 96_852
+    assert aoc_input.solve2() == 96_852
