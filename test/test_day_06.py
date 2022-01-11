@@ -5,7 +5,7 @@ from aoc.day_06 import Day06
 
 from resources import read_as_string_list
 
-aoc_input: List[str] = read_as_string_list('test/day06.in')
+aoc_input = Day06(read_as_string_list('test/day06.in'))
 
 
 def test_solve_1_examples():
@@ -14,7 +14,7 @@ def test_solve_1_examples():
 
 
 def test_solve_1_input():
-    assert Day06(aoc_input).solve1() == 377_891
+    assert aoc_input.solve1() == 377_891
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -26,4 +26,4 @@ def test_solve_2_examples(test_input: List[str], expected: int):
 
 
 def test_solve_2_input():
-    assert Day06(aoc_input).solve2() == 14_110_788
+    assert aoc_input.solve2() == 14_110_788
