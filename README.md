@@ -25,21 +25,21 @@ I actually started Advent of Code in 2017 using Java. I decided to do the previo
 | [Day 8: Matchsticks](https://adventofcode.com/2015/day/8)                            |[day_08.py](src/aoc/day_08.py)|-----------| :star: :star: |
 | [Day 9: All in a Single Night](https://adventofcode.com/2015/day/9)                  |[day_09.py](src/aoc/day_09.py)|[day09.md](blog/day09.md)| :star: :star: |
 | [Day 10: Elves Look, Elves Say](https://adventofcode.com/2015/day/10)                |[day_10.py](src/aoc/day_10.py)|-----------| :star: :star: |
-| [Day 11: Corporate Policy](https://adventofcode.com/2015/day/11)                     |[day_11.py](src/aoc/day_11.py)|-----------| :star: :star: |
+| [Day 11: Corporate Policy](https://adventofcode.com/2015/day/11)                     |[day_11.py](src/aoc/day_11.py)|[day11.md](blog/day11.md)| :star: :star: |
 | [Day 12: JSAbacusFramework.io](https://adventofcode.com/2015/day/12)                 |[day_12.py](src/aoc/day_12.py)|-----------| :star: :star: |
 | [Day 13: Knights of the Dinner Table](https://adventofcode.com/2015/day/13)          |[day_13.py](src/aoc/day_13.py)|-----------| :star: :star: |
 | [Day 14: Reindeer Olympics](https://adventofcode.com/2015/day/14)                    |[day_14.py](src/aoc/day_14.py)|-----------| :star: :star: |
-| [Day 15: Science for Hungry People](https://adventofcode.com/2015/day/15)            |[day_15.py](src/aoc/day_15.py)|-----------| :star: :star: |
+| [Day 15: Science for Hungry People](https://adventofcode.com/2015/day/15)            |[day_15.py](src/aoc/day_15.py)|[day15.md](blog/day15.md)| :star: :star: |
 | [Day 16: Aunt Sue](https://adventofcode.com/2015/day/16)                             |-----------|-----------| :star: :star: |
 | [Day 17: No Such Thing as Too Much](https://adventofcode.com/2015/day/17)            |-----------|-----------| :star: :star: |
 | [Day 18: Like a GIF For Your Yard](https://adventofcode.com/2015/day/18)             |-----------|-----------| :star: :star: |
-| [Day 19: Medicine for Rudolph](https://adventofcode.com/2015/day/19)                 |-----------|-----------| :black_circle: :black_circle: |
-| [Day 20: Infinite Elves and Infinite Houses](https://adventofcode.com/2015/day/20)   |-----------|-----------| :black_circle: :black_circle: |
-| [Day 21: RPG Simulator 20XX](https://adventofcode.com/2015/day/21)                   |-----------|-----------| :black_circle: :black_circle: |
-| [Day 22: Wizard Simulator 20XX](https://adventofcode.com/2015/day/22)                |-----------|-----------| :black_circle: :black_circle: |
-| [Day 23: Opening the Turing Lock](https://adventofcode.com/2015/day/23)              |-----------|-----------| :black_circle: :black_circle: |
-| [Day 24: It Hangs in the Balance](https://adventofcode.com/2015/day/24)              |-----------|-----------| :black_circle: :black_circle: |
-| [Day 25: Let It Snow](https://adventofcode.com/2015/day/25)                          |-----------|-----------| :black_circle: :black_circle: |
+| [Day 19: Medicine for Rudolph](https://adventofcode.com/2015/day/19)                 |-----------|-----------| :star: :star: |
+| [Day 20: Infinite Elves and Infinite Houses](https://adventofcode.com/2015/day/20)   |-----------|-----------| :star: :star: |
+| [Day 21: RPG Simulator 20XX](https://adventofcode.com/2015/day/21)                   |-----------|-----------| :star: :star: |
+| [Day 22: Wizard Simulator 20XX](https://adventofcode.com/2015/day/22)                |-----------|-----------| :star: :star: |
+| [Day 23: Opening the Turing Lock](https://adventofcode.com/2015/day/23)              |-----------|-----------| :star: :star: |
+| [Day 24: It Hangs in the Balance](https://adventofcode.com/2015/day/24)              |-----------|-----------| :star: :star: |
+| [Day 25: Let It Snow](https://adventofcode.com/2015/day/25)                          |-----------|-----------| :star: :star: |
 
 [^disclaimer]: **Disclaimer**: I do AoC for fun and to learn new languages and new tricks. Part of my learning process (also for fun, even if I
 already have experience with some language), is to check what other users do and learn things from them. I can't help but incorporate
