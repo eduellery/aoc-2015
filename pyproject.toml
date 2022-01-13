@@ -3,7 +3,11 @@ requires = ["setuptools>=42.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.pytest.ini_options]
-addopts = "--cov aoc"
+addopts = "-rfEX -p pytester --strict-markers --cov aoc --cov-report term-missing"
+python_files = [
+    "test_*.py",
+    "*_test.py"
+]
 testpaths = [
     "test",
 ]
