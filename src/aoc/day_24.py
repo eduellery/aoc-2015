@@ -43,8 +43,8 @@ class Day24:
         self.len_4 = len(self.packages) // 4
 
     @staticmethod
-    def product(seq):
-        return reduce(lambda a, b: a * b, seq, 1)
+    def product(seq) -> int:
+        return reduce(lambda a, b: int(a * b), seq, 1)
 
     def equal_3(self):
         min_qe = self.product(self.numbers)
