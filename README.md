@@ -1,4 +1,4 @@
-# [Advent of Code 2015](https://adventofcode.com/2021)
+# [Advent of Code 2015](https://adventofcode.com/2015)
 
 ![Tests](https://github.com/eduellery/aoc-2015/actions/workflows/python-package.yml/badge.svg)
 
