@@ -3,9 +3,10 @@ from typing import List
 import pytest
 from aoc.day_06 import Day06
 
-from resources import read_as_string_list
+from resources import read_as_string_list, file_exists
 
-aoc_input = Day06(read_as_string_list('test/day06.in'))
+local_test =  file_exists('test/day06.in')
+aoc_input = Day06(read_as_string_list('test/day06.in')) if local_test else None
 
 
 def test_solve_1_examples():
@@ -13,6 +14,7 @@ def test_solve_1_examples():
     assert Day06(test).solve1() == 998_996
 
 
+@pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')
 def test_solve_1_input():
     assert aoc_input.solve1() == 377_891
 
@@ -25,5 +27,6 @@ def test_solve_2_examples(test_input: List[str], expected: int):
     assert Day06(test_input).solve2() == expected
 
 
+@pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')
 def test_solve_2_input():
     assert aoc_input.solve2() == 14_110_788
