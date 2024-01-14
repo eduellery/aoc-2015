@@ -1,7 +1,10 @@
 import pytest
 from aoc.day_20 import Day20
 
-aoc_input: int = 29_000_000
+from resources import read_as_int_list, file_exists
+
+local_test =  file_exists('test/day20.in')
+aoc_input = Day20(read_as_int_list('test/day20.in')[0]) if local_test else None
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -23,8 +26,9 @@ def test_solve_1_examples(test_input: int, expected: int):
     assert Day20(test_input).solve1() == expected
 
 
+@pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')
 def test_solve_1_input():
-    assert Day20(aoc_input).solve1() == 665_280
+    assert aoc_input.solve1() == 665_280
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -46,5 +50,6 @@ def test_solve_2_examples(test_input: int, expected: int):
     assert Day20(test_input).solve2() == expected
 
 
+@pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')
 def test_solve_2_input():
-    assert Day20(aoc_input).solve2() == 705_600
+    assert aoc_input.solve2() == 705_600
