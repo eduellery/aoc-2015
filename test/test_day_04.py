@@ -20,10 +20,18 @@ def test_solve_1_input():
     assert aoc_input.solve1() == 346_386
 
 
-@pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')
-def test_solve_2_input():
-    assert aoc_input.solve2() == 9_958_218
+@pytest.mark.parametrize("test_input, expected", [
+    ('abcdef', 6_742_839),
+    ('pqrstuv', 5_714_438),
+])
+def test_solve_2_examples(test_input: str, expected: int):
+    assert Day04(test_input).solve2() == expected
 
 
 def test_unsolvable_solve_2():
     assert Day04('a' * 16).solve2() == -1
+
+
+@pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')
+def test_solve_2_input():
+    assert aoc_input.solve2() == 9_958_218
