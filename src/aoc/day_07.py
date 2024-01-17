@@ -10,7 +10,7 @@ class Day07:
             for ops, register in instruction:
                 self.calc[register] = ops.strip().split(' ')
 
-    def calculate(self, register: str, results: Dict[str, int] = dict()) -> int:
+    def calculate(self, register: str, results: Dict[str, int]) -> int:
         try:
             return int(register)
         except ValueError:
@@ -36,9 +36,9 @@ class Day07:
         return results[register]
 
     def solve1(self) -> int:
-        return self.calculate('a')
+        return self.calculate('a', dict())
 
     def solve2(self) -> int:
         result = dict()
-        result['b'] = self.calculate('a')
+        result['b'] = self.calculate('a', dict())
         return self.calculate('a', result)
