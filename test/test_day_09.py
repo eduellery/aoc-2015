@@ -3,7 +3,7 @@ from aoc.day_09 import Day09
 
 from resources import read_as_string_list, file_exists
 
-test_day = Day09(['London to Dublin = 464', 'London to Belfast = 518', 'Dublin to Belfast = 141'])
+test_day = Day09(read_as_string_list('test/day09.example'))
 local_test =  file_exists('test/day09.in')
 input_day = Day09(read_as_string_list('test/day09.in')) if local_test else None
 
