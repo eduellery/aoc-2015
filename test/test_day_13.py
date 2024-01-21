@@ -17,6 +17,10 @@ def test_solve_1_input():
     assert input_day.solve1() == 618
 
 
+def test_solve_2_example():
+    assert test_day.solve2() == 286
+
+
 @pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')
 def test_solve_2_input():
     assert input_day.solve2() == 601
