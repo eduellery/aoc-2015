@@ -1,0 +1,12 @@
+inc b
+jio b, +2
+tpl b
+inc b
+hlf b
+tpl b
+jmp 2
+tpl b
+tpl b
+jie a, +2
+tpl b
+tpl b
