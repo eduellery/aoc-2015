@@ -22,6 +22,7 @@ def test_solve_1_input():
 @pytest.mark.parametrize("test_input, expected", [
     (['turn on 0,0 through 0,0'], 1),
     (['toggle 0,0 through 999,999'], 2_000_000),
+    (['turn on 0,0 through 999,999', 'toggle 0,0 through 999,0', 'turn off 499,499 through 500,500'], 1_001_996),
 ])
 def test_solve_2_examples(test_input: List[str], expected: int):
     assert Day06(test_input).solve2() == expected
