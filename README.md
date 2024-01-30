@@ -24,31 +24,11 @@ I actually started Advent of Code in 2017 using Java. I decided to do the previo
 
 | Problem | Solution | Blog Post | Stars |
 | ------- | -------- | --------- | ----- |
-| [Day 1: Not Quite Lisp ](https://adventofcode.com/2015/day/1)                        |[day_01.py](src/aoc/day_01.py)|-----------| :star: :star: |
-| [Day 2: I Was Told There Would Be No Math](https://adventofcode.com/2015/day/2)      |[day_02.py](src/aoc/day_02.py)|-----------| :star: :star: |
 | [Day 3: Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3) |[day_03.py](src/aoc/day_03.py)|[day03.md](blog/day03.md)| :star: :star: |
-| [Day 4: The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4)             |[day_04.py](src/aoc/day_04.py)|-----------| :star: :star: |
 | [Day 5: Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) |[day_05.py](src/aoc/day_05.py)|[day05.md](blog/day05.md)| :star: :star: |
-| [Day 6: Probably a Fire Hazard](https://adventofcode.com/2015/day/6)                 |[day_06.py](src/aoc/day_06.py)|-----------| :star: :star: |
-| [Day 7: Some Assembly Required](https://adventofcode.com/2015/day/7)                 |[day_07.py](src/aoc/day_07.py)|-----------| :star: :star: |
-| [Day 8: Matchsticks](https://adventofcode.com/2015/day/8)                            |[day_08.py](src/aoc/day_08.py)|-----------| :star: :star: |
 | [Day 9: All in a Single Night](https://adventofcode.com/2015/day/9)                  |[day_09.py](src/aoc/day_09.py)|[day09.md](blog/day09.md)| :star: :star: |
-| [Day 10: Elves Look, Elves Say](https://adventofcode.com/2015/day/10)                |[day_10.py](src/aoc/day_10.py)|-----------| :star: :star: |
 | [Day 11: Corporate Policy](https://adventofcode.com/2015/day/11)                     |[day_11.py](src/aoc/day_11.py)|[day11.md](blog/day11.md)| :star: :star: |
-| [Day 12: JSAbacusFramework.io](https://adventofcode.com/2015/day/12)                 |[day_12.py](src/aoc/day_12.py)|-----------| :star: :star: |
-| [Day 13: Knights of the Dinner Table](https://adventofcode.com/2015/day/13)          |[day_13.py](src/aoc/day_13.py)|-----------| :star: :star: |
-| [Day 14: Reindeer Olympics](https://adventofcode.com/2015/day/14)                    |[day_14.py](src/aoc/day_14.py)|-----------| :star: :star: |
 | [Day 15: Science for Hungry People](https://adventofcode.com/2015/day/15)            |[day_15.py](src/aoc/day_15.py)|[day15.md](blog/day15.md)| :star: :star: |
-| [Day 16: Aunt Sue](https://adventofcode.com/2015/day/16)                             |[day_16.py](src/aoc/day_16.py)|-----------| :star: :star: |
-| [Day 17: No Such Thing as Too Much](https://adventofcode.com/2015/day/17)            |[day_17.py](src/aoc/day_17.py)|-----------| :star: :star: |
-| [Day 18: Like a GIF For Your Yard](https://adventofcode.com/2015/day/18)             |[day_18.py](src/aoc/day_18.py)|-----------| :star: :star: |
-| [Day 19: Medicine for Rudolph](https://adventofcode.com/2015/day/19)                 |[day_19.py](src/aoc/day_19.py)|-----------| :star: :star: |
-| [Day 20: Infinite Elves and Infinite Houses](https://adventofcode.com/2015/day/20)   |[day_20.py](src/aoc/day_20.py)|-----------| :star: :star: |
-| [Day 21: RPG Simulator 20XX](https://adventofcode.com/2015/day/21)                   |[day_21.py](src/aoc/day_21.py)|-----------| :star: :star: |
-| [Day 22: Wizard Simulator 20XX](https://adventofcode.com/2015/day/22)                |[day_22.py](src/aoc/day_22.py)|-----------| :star: :star: |
-| [Day 23: Opening the Turing Lock](https://adventofcode.com/2015/day/23)              |[day_23.py](src/aoc/day_23.py)|-----------| :star: :star: |
-| [Day 24: It Hangs in the Balance](https://adventofcode.com/2015/day/24)              |[day_24.py](src/aoc/day_24.py)|-----------| :star: :star: |
-| [Day 25: Let It Snow](https://adventofcode.com/2015/day/25)                          |[day_25.py](src/aoc/day_25.py)|-----------| :star: :star: |
 
 ## Statistics
 
