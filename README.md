@@ -102,6 +102,8 @@ TOTAL                 747      0   100%
 ===================== 140 passed in 283.70s (0:04:43) ======================
 ```
 
+<!--- advent_readme_stars table --->
+
 ## Other
 
 ### Advent of Code 2015 Final Art
