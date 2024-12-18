@@ -1,5 +1,5 @@
 import pytest
-from aoc.day_17 import Day17
+from src.day_17 import Day17
 
 from resources import read_as_int_list, file_exists
 

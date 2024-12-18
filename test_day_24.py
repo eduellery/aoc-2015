@@ -1,7 +1,7 @@
 from typing import List
 
 import pytest
-from aoc.day_24 import Day24
+from src.day_24 import Day24
 
 from resources import read_as_int_list, file_exists
 

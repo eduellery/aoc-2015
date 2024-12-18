@@ -1,5 +1,5 @@
 import pytest
-from aoc.day_25 import Day25
+from src.day_25 import Day25
 
 from resources import file_exists
 
