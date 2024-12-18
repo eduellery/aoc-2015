@@ -1,9 +1,9 @@
 from re import split
-from typing import List, Dict, Any
+from typing import Any
 
 
 class Day23:
-    def __init__(self, instructions: List[str]):
+    def __init__(self, instructions: list[str]):
         self.instructions = instructions
 
     def hlf(self, registers, register):
@@ -28,7 +28,7 @@ class Day23:
         return int(offset) if registers[register] == 1 else 1, registers
 
     def run(self, seed: int = 0) -> int:
-        instruction_fn: Dict[str, Any] = {
+        instruction_fn: dict[str, Any] = {
             'hlf': self.hlf,
             'tpl': self.tpl,
             'inc': self.inc,

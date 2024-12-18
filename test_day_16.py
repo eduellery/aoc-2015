@@ -1,7 +1,7 @@
 import pytest
-from src.day_16 import Day16
 
-from resources import read_as_string_list, file_exists
+from resources import file_exists, read_as_string_list
+from src.day_16 import Day16
 
 test_input = Day16(['Sue 1: goldfish: 9, cars: 0, samoyeds: 9',
                     'Sue 2: vizslas: 0, cats: 7, akitas: 0',

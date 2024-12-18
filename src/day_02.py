@@ -1,8 +1,7 @@
-from typing import List
 
 
 class Day02:
-    def __init__(self, lines: List[str]):
+    def __init__(self, lines: list[str]):
         self.lines = lines
 
     def solve1(self, area: int = 0) -> int:

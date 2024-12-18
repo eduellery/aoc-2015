@@ -1,11 +1,10 @@
 from collections import Counter
 from itertools import accumulate, cycle
 from re import findall
-from typing import List
 
 
 class Day14:
-    def __init__(self, descriptions: List[str], seconds: int = 2503):
+    def __init__(self, descriptions: list[str], seconds: int = 2503):
         self.reindeer_dict = {}
         history = {}
 
@@ -22,7 +21,7 @@ class Day14:
             steps = cycle([int(speed)] * int(duration) + [0] * int(rest))
             history[reindeer] = list(accumulate(next(steps) for _ in range(seconds)))
 
-        self.scored = [i for a in zip(*history.values()) for i, v in enumerate(a) if v == max(a)]
+        self.scored = [i for a in zip(*history.values(), strict=False) for i, v in enumerate(a) if v == max(a)]
 
     def solve1(self) -> int:
         return max(self.reindeer_dict.values())

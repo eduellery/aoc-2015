@@ -1,4 +1,4 @@
-from typing import List, Generator, Dict
+from collections.abc import Generator
 
 CRITERIA = dict(
     children=3,
@@ -22,8 +22,8 @@ COMPARES = dict(
 
 
 class Day16:
-    def __init__(self, aunt_list: List[str]):
-        self.aunts: Dict[str, Dict[str, int]] = {}
+    def __init__(self, aunt_list: list[str]):
+        self.aunts: dict[str, dict[str, int]] = {}
         for line in aunt_list:
             name, _, compounds = line.partition(':')
             self.aunts[name] = {}
@@ -32,7 +32,7 @@ class Day16:
                 cname, _, amt = compound.partition(':')
                 self.aunts[name][cname] = int(amt)
 
-    def find_matches(self, criteria, compares={}) -> Generator[str, None, None]:
+    def find_matches(self, criteria, compares={}) -> Generator[str]:
         for name, aunt in self.aunts.items():
             for k, v in criteria.items():
                 compare = compares.get(k, lambda a, c: a == c)

@@ -1,5 +1,4 @@
 from functools import reduce
-from typing import List
 
 
 class SummedCombos:
@@ -29,12 +28,11 @@ class SummedCombos:
         elif total > self.target_sum:
             return
         for choice, rest in SummedCombos.choice_rest(remaining):
-            for answer in self.work(rest, so_far + [choice]):
-                yield answer
+            yield from self.work(rest, so_far + [choice])
 
 
 class Day24:
-    def __init__(self, numbers: List[int]):
+    def __init__(self, numbers: list[int]):
         self.numbers = numbers
         self.packages = sorted(self.numbers, reverse=True)
         self.sum_3 = sum(self.packages) // 3

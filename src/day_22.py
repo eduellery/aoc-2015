@@ -1,5 +1,4 @@
 from copy import deepcopy
-from typing import List, Dict
 
 spell_cost = {
     'Missile': 53,
@@ -30,15 +29,15 @@ class Game:
         self.boss_dmg = boss_dmg
 
         self.mana_spent = 0
-        self.casted_spells: List[str] = []
-        self.effects: Dict[str, int] = {}
+        self.casted_spells: list[str] = []
+        self.effects: dict[str, int] = {}
 
     def cast(self, spell_name):
-        if spell_name in spell_damage.keys():
+        if spell_name in spell_damage:
             self.boss_health -= spell_damage[spell_name]
-        if spell_name in spell_health.keys():
+        if spell_name in spell_health:
             self.player_health += spell_health[spell_name]
-        if spell_name in effects_duration.keys():
+        if spell_name in effects_duration:
             self.effects[spell_name] = effects_duration[spell_name]
 
         self.mana_spent += spell_cost[spell_name]
@@ -46,10 +45,10 @@ class Game:
         self.casted_spells.append(spell_name)
 
     def not_available(self, spell_name):
-        return spell_name in [x for x in self.effects.keys()] or spell_cost[spell_name] > self.player_mana
+        return spell_name in [x for x in self.effects] or spell_cost[spell_name] > self.player_mana
 
     def apply_effects(self):
-        for e in self.effects.keys():
+        for e in self.effects:
             if e == 'Poison':
                 self.boss_health -= 3
             elif e == 'Recharge':
@@ -58,7 +57,7 @@ class Game:
         self.effects = {key: val for key, val in self.effects.items() if val > 0}
 
     def attack(self):
-        damage = self.boss_dmg if 'Shield' not in [ef for ef in self.effects.keys()] else self.boss_dmg - 7
+        damage = self.boss_dmg if 'Shield' not in [ef for ef in self.effects] else self.boss_dmg - 7
         self.player_health -= max(damage, 1)
 
     def boss_defeated(self):

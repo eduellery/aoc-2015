@@ -1,7 +1,7 @@
 import pytest
-from src.day_07 import Day07
 
-from resources import read_as_string_list, file_exists
+from resources import file_exists, read_as_string_list
+from src.day_07 import Day07
 
 test1_input = Day07(read_as_string_list('test/day07.part1.example'))
 test2_input = Day07(read_as_string_list('test/day07.part2.example'))

@@ -1,9 +1,8 @@
-from typing import List
 
 import pytest
-from src.day_02 import Day02
 
-from resources import read_as_string_list, file_exists
+from resources import file_exists, read_as_string_list
+from src.day_02 import Day02
 
 local_test =  file_exists('test/day02.in')
 aoc_input = Day02(read_as_string_list('test/day02.in')) if local_test else None
@@ -13,7 +12,7 @@ aoc_input = Day02(read_as_string_list('test/day02.in')) if local_test else None
     (['2x3x4'], 58),
     (['1x1x10'], 43),
 ])
-def test_solve_1_examples(test_input: List[str], expected: int):
+def test_solve_1_examples(test_input: list[str], expected: int):
     assert Day02(test_input).solve1() == expected
 
 
@@ -26,7 +25,7 @@ def test_solve_1_input():
     (['2x3x4'], 34),
     (['1x1x10'], 14),
 ])
-def test_solve_2_examples(test_input: List[str], expected: int):
+def test_solve_2_examples(test_input: list[str], expected: int):
     assert Day02(test_input).solve2() == expected
 
 

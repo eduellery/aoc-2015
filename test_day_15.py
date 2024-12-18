@@ -1,7 +1,7 @@
 import pytest
-from src.day_15 import Day15
 
-from resources import read_as_string_list, file_exists
+from resources import file_exists, read_as_string_list
+from src.day_15 import Day15
 
 local_test =  file_exists('test/day15.in')
 test_input = Day15(['Butterscotch: capacity -1, durability -2, flavor 6, texture 3, calories 8',

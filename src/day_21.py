@@ -1,7 +1,7 @@
 from collections import namedtuple
+from collections.abc import Generator
 from copy import copy
 from itertools import chain, combinations, product
-from typing import Tuple, Generator
 
 Thing = namedtuple('Thing', 'name cost damage armor')
 
@@ -88,10 +88,10 @@ class Day21:
             winner = Day21.play(you, copy(self.boss))
             yield spent, you, winner is you
 
-    def winning(self, inventories) -> Generator[Tuple[int, Player], None, None]:
+    def winning(self, inventories) -> Generator[tuple[int, Player]]:
         return ((spent, you) for spent, you, outcome in self.outcomes(inventories) if outcome is True)
 
-    def losing(self, inventories) -> Generator[Tuple[int, Player], None, None]:
+    def losing(self, inventories) -> Generator[tuple[int, Player]]:
         return ((spent, you) for spent, you, outcome in self.outcomes(inventories) if outcome is False)
 
     def solve1(self) -> int:

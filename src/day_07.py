@@ -1,16 +1,15 @@
 from re import findall
-from typing import List, Dict
 
 
 class Day07:
-    def __init__(self, instructions: List[str]):
+    def __init__(self, instructions: list[str]):
         self.calc = dict()
         for line in instructions:
             instruction = findall(r'(.*)\s->\s(\w*)', line)
             for ops, register in instruction:
                 self.calc[register] = ops.strip().split(' ')
 
-    def calculate(self, register: str, results: Dict[str, int]) -> int:
+    def calculate(self, register: str, results: dict[str, int]) -> int:
         try:
             return int(register)
         except ValueError:

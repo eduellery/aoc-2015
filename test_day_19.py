@@ -1,7 +1,7 @@
 import pytest
-from src.day_19 import Day19
 
-from resources import read_as_text, file_exists
+from resources import file_exists, read_as_text
+from src.day_19 import Day19
 
 local_test =  file_exists('test/day19.in')
 test1_input = Day19(read_as_text('test/day19.part1.example'))

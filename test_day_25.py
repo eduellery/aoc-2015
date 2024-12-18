@@ -1,7 +1,7 @@
 import pytest
-from src.day_25 import Day25
 
 from resources import file_exists
+from src.day_25 import Day25
 
 local_test =  file_exists('test/day25.in')
 aoc_input = Day25(3_010, 3_019)

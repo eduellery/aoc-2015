@@ -1,7 +1,7 @@
 import pytest
-from src.day_18 import Day18
 
-from resources import read_as_string_list, file_exists
+from resources import file_exists, read_as_string_list
+from src.day_18 import Day18
 
 local_test =  file_exists('test/day18.in')
 test_input = ['.#.#.#',

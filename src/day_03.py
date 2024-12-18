@@ -1,4 +1,3 @@
-from typing import Tuple, Set
 
 
 class Day03:
@@ -6,7 +5,7 @@ class Day03:
         self.directions = directions
 
     @staticmethod
-    def move(santa: Tuple[int, int], direction: str):
+    def move(santa: tuple[int, int], direction: str):
         x, y = santa
         if direction == '>':
             x += 1
@@ -18,9 +17,9 @@ class Day03:
             y -= 1
         return x, y
 
-    def visited_houses(self, directions: str) -> Set[Tuple[int, int]]:
-        houses: Set[Tuple[int, int]] = set()
-        santa: Tuple[int, int] = (0, 0)
+    def visited_houses(self, directions: str) -> set[tuple[int, int]]:
+        houses: set[tuple[int, int]] = set()
+        santa: tuple[int, int] = (0, 0)
         houses.add(santa)
         for direction in directions:
             santa = self.move(santa, direction)

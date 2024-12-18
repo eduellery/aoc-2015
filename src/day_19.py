@@ -11,7 +11,7 @@ class Day19:
         for replacement in self.reactions:
             pos = ([m for m in range(len(self.medicine)) if self.medicine.startswith(replacement[0], m)])
             for idx in pos:
-                output.add((self.medicine[:idx] + replacement[1] + self.medicine[idx + len(replacement[0]):]))
+                output.add(self.medicine[:idx] + replacement[1] + self.medicine[idx + len(replacement[0]):])
         return len(output)
 
     def solve2(self) -> int:

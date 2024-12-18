@@ -1,7 +1,7 @@
 import pytest
-from src.day_08 import Day08
 
-from resources import read_as_string_list, file_exists
+from resources import file_exists, read_as_string_list
+from src.day_08 import Day08
 
 test_input = Day08(['""', '"abc"', '"aaa\\"aaa"', '"\\x27"'])
 local_test =  file_exists('test/day08.in')

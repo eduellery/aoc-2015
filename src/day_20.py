@@ -1,4 +1,4 @@
-from typing import Generator
+from collections.abc import Generator
 
 
 class Day20:
@@ -6,7 +6,7 @@ class Day20:
         self.minimum = minimum
         self.presents = minimum // 10
 
-    def part1(self) -> Generator[int, None, None]:
+    def part1(self) -> Generator[int]:
         houses = [0] * self.presents
         for e in range(1, self.presents):
             for h in range(e, self.presents, e):
@@ -19,7 +19,7 @@ class Day20:
     def solve1(self) -> int:
         return next(self.part1())
 
-    def part2(self) -> Generator[int, None, None]:
+    def part2(self) -> Generator[int]:
         houses = [0] * self.minimum
         for e in range(1, self.presents):
             for i in range(50):

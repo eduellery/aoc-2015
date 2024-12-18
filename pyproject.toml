@@ -14,4 +14,22 @@ dev-dependencies = [
 ]
 
 [tool.ruff.lint]
-extend-select = ["E", "W"]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+ignore = ["B006", "E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+addopts = "-ra"

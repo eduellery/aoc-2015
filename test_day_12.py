@@ -1,7 +1,7 @@
 import pytest
-from src.day_12 import Day12
 
-from resources import read_as_string, file_exists
+from resources import file_exists, read_as_string
+from src.day_12 import Day12
 
 local_test =  file_exists('test/day12.in')
 aoc_input = Day12(read_as_string('test/day12.in')) if local_test else None

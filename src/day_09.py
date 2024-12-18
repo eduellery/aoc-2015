@@ -1,10 +1,9 @@
 from itertools import permutations
 from re import findall
-from typing import List
 
 
 class Day09:
-    def __init__(self, costs: List[str]):
+    def __init__(self, costs: list[str]):
         distances = {}
         cities = set()
 

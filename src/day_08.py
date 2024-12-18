@@ -1,8 +1,7 @@
-from typing import List
 
 
 class Day08:
-    def __init__(self, lines: List[str]):
+    def __init__(self, lines: list[str]):
         self.dec: int = 0
         self.enc: int = 0
         for line in lines:

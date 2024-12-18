@@ -1,11 +1,10 @@
 from copy import deepcopy
-from typing import List
 
 DIRECTIONS = [(x, y) for x in range(-1, 2) for y in range(-1, 2) if (x != 0 or y != 0)]
 
 
 class Day18:
-    def __init__(self, lines: List[str], steps: int = 100):
+    def __init__(self, lines: list[str], steps: int = 100):
         self.original = {}
         self.size = len(lines)
         self.steps = steps
@@ -20,11 +19,9 @@ class Day18:
 
     def next(self, grid, corners):
         new_grid = {}
-        for (row, column) in grid.keys():
+        for (row, column) in grid:
             n = self.count_neighbors(grid, row, column)
-            if grid[(row, column)] == '#' and (n == 2 or n == 3):
-                new_grid[(row, column)] = '#'
-            elif grid[(row, column)] == '.' and n == 3:
+            if grid[(row, column)] == '#' and (n == 2 or n == 3) or grid[(row, column)] == '.' and n == 3:
                 new_grid[(row, column)] = '#'
             else:
                 new_grid[(row, column)] = '.'

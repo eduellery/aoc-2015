@@ -1,7 +1,7 @@
 import pytest
-from src.day_09 import Day09
 
-from resources import read_as_string_list, file_exists
+from resources import file_exists, read_as_string_list
+from src.day_09 import Day09
 
 test_day = Day09(read_as_string_list('test/day09.example'))
 local_test =  file_exists('test/day09.in')

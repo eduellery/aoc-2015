@@ -1,7 +1,7 @@
 import pytest
-from src.day_17 import Day17
 
-from resources import read_as_int_list, file_exists
+from resources import file_exists, read_as_int_list
+from src.day_17 import Day17
 
 local_test =  file_exists('test/day17.in')
 test_input = Day17([20, 15, 10, 5, 5], 25)

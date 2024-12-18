@@ -1,5 +1,5 @@
-from typing import List
 import os
+
 
 def read_as_text(filename: str) -> str:
     with open(filename) as file:
@@ -14,12 +14,12 @@ def read_as_string(filename: str) -> str:
     return result
 
 
-def read_as_string_list(filename: str) -> List[str]:
+def read_as_string_list(filename: str) -> list[str]:
     with open(filename) as file:
         return file.read().splitlines()
 
 
-def read_as_int_list(filename: str) -> List[int]:
+def read_as_int_list(filename: str) -> list[int]:
     with open(filename) as file:
         return list(map(int, file.read().splitlines()))
 

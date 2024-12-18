@@ -1,5 +1,4 @@
 from re import findall
-from typing import List
 
 ON = 'turn on'
 OFF = 'turn off'
@@ -7,7 +6,7 @@ TOGGLE = 'toggle'
 
 
 class Day06:
-    def __init__(self, instructions: List[str]):
+    def __init__(self, instructions: list[str]):
         self.instructions = instructions
 
     def solve1(self) -> int:

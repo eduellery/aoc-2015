@@ -1,9 +1,8 @@
 from re import findall, search
-from typing import List
 
 
 class Day05:
-    def __init__(self, lines: List[str]):
+    def __init__(self, lines: list[str]):
         self.lines = lines
 
     def solve1(self, nice: int = 0) -> int:

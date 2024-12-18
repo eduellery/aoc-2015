@@ -1,7 +1,7 @@
 import pytest
-from src.day_21 import Day21
 
 from resources import file_exists
+from src.day_21 import Day21
 
 local_test =  file_exists('test/day21.in')
 test_input = Day21(8, 12, 7, 2)

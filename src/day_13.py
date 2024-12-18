@@ -1,13 +1,12 @@
 from itertools import permutations
 from re import findall
-from typing import List, Set, Tuple, Dict
 
 
 class Day13:
-    def __init__(self, happiness: List[str]):
+    def __init__(self, happiness: list[str]):
         self.happiness = happiness
 
-    def populate(self) -> Tuple[Dict[str, int], Set[str]]:
+    def populate(self) -> tuple[dict[str, int], set[str]]:
         match = {}
         people = set()
 
@@ -19,7 +18,7 @@ class Day13:
         return match, people
 
     @staticmethod
-    def cost(match: Dict[str, int], person: Tuple[str, ...]) -> int:
+    def cost(match: dict[str, int], person: tuple[str, ...]) -> int:
         size = len(person)
         gain = 0
         for i in range(size):

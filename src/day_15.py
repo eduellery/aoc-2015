@@ -1,9 +1,8 @@
 from re import findall
-from typing import List
 
 
 class Day15:
-    def __init__(self, stats: List[str], short: bool = False):
+    def __init__(self, stats: list[str], short: bool = False):
         regex = r'^\w+: capacity ([-\d]+), durability ([-\d]+), flavor ([-\d]+), texture ([-\d]+), calories ([-\d]+)$'
 
         capacity = []
