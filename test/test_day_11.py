@@ -1,10 +1,10 @@
 import pytest
-
 from resources import file_exists, read_as_string
-from src.day_11 import Day11
 
-local_test =  file_exists('test/day11.in')
-aoc_input = Day11(read_as_string('test/day11.in')) if local_test else None
+from day_11 import Day11
+
+local_test =  file_exists('test/res/day11.in')
+aoc_input = Day11(read_as_string('test/res/day11.in')) if local_test else None
 
 
 @pytest.mark.parametrize("test_input, expected", [

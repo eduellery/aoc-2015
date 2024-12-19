@@ -1,25 +1,26 @@
 import pytest
-
 from resources import file_exists
-from src.day_25 import Day25
 
-local_test =  file_exists('test/day25.in')
-aoc_input = Day25(3_010, 3_019)
+from day_22 import Day22
+
+test_input = Day22(10, 250, 13, 8)
+local_test =  file_exists('test/res/day22.in')
+aoc_input = Day22(50, 500, 71, 10)
 
 
 def test_solve_1_example():
-    assert Day25(1, 1).solve1() == 20_151_125
+    assert test_input.solve1() == 226
 
 
 @pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')
 def test_solve_1_input():
-    assert aoc_input.solve1() == 8_997_277
+    assert aoc_input.solve1() == 1_824
 
 
 def test_solve_2_example():
-    assert Day25(1, 1).solve2() == 2
+    assert test_input.solve2() == 226
 
 
 @pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')
 def test_solve_2_input():
-    assert aoc_input.solve2() == 6_029
+    assert aoc_input.solve2() == 1_937

@@ -1,9 +1,9 @@
 import pytest
-
 from resources import file_exists
-from src.day_21 import Day21
 
-local_test =  file_exists('test/day21.in')
+from day_21 import Day21
+
+local_test =  file_exists('test/res/day21.in')
 test_input = Day21(8, 12, 7, 2)
 aoc_input = Day21(100, 100, 8, 2)
 

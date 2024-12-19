@@ -1,11 +1,11 @@
 import pytest
-
 from resources import file_exists, read_as_string_list
-from src.day_08 import Day08
+
+from day_08 import Day08
 
 test_input = Day08(['""', '"abc"', '"aaa\\"aaa"', '"\\x27"'])
-local_test =  file_exists('test/day08.in')
-aoc_input = Day08(read_as_string_list('test/day08.in')) if local_test else None
+local_test =  file_exists('test/res/day08.in')
+aoc_input = Day08(read_as_string_list('test/res/day08.in')) if local_test else None
 
 
 def test_solve_1_example():

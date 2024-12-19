@@ -1,16 +1,16 @@
 import pytest
-
 from resources import file_exists, read_as_string_list
-from src.day_18 import Day18
 
-local_test =  file_exists('test/day18.in')
+from day_18 import Day18
+
+local_test =  file_exists('test/res/day18.in')
 test_input = ['.#.#.#',
               '...##.',
               '#....#',
               '..#...',
               '#.#..#',
               '####..']
-aoc_input = Day18(read_as_string_list('test/day18.in')) if local_test else None
+aoc_input = Day18(read_as_string_list('test/res/day18.in')) if local_test else None
 
 
 def test_solve_1_example():

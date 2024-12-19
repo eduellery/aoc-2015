@@ -31,5 +31,5 @@ select = [
 ignore = ["B006", "E501"]
 
 [tool.pytest.ini_options]
-testpaths = ["."]
+testpaths = ["test"]
 addopts = "-ra"
