@@ -22,7 +22,7 @@ jobs:
       uses: actions/setup-python@v5
 
     - name: Install the project
-      run: uv sunc --all-extras --dev
+      run: uv sync --all-extras --dev
 
     - name: Ruff it
       run: uv run ruff check
