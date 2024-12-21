@@ -3,11 +3,11 @@ from resources import file_exists, read_as_string_list
 
 from day_15 import Day15
 
-local_test =  file_exists('test/res/day15.in')
+local_test =  file_exists('res/day15.in')
 test_input = Day15(['Butterscotch: capacity -1, durability -2, flavor 6, texture 3, calories 8',
                     'Cinnamon: capacity 2, durability 3, flavor -2, texture -1, calories 3'],
                    True)
-aoc_input = Day15(read_as_string_list('test/res/day15.in')) if local_test else None
+aoc_input = Day15(read_as_string_list('res/day15.in')) if local_test else None
 
 
 def test_solve_1_example():

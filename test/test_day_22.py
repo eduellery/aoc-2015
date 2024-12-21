@@ -4,7 +4,7 @@ from resources import file_exists
 from day_22 import Day22
 
 test_input = Day22(10, 250, 13, 8)
-local_test =  file_exists('test/res/day22.in')
+local_test =  file_exists('res/day22.in')
 aoc_input = Day22(50, 500, 71, 10)
 
 

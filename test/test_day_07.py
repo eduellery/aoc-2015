@@ -3,10 +3,10 @@ from resources import file_exists, read_as_string_list
 
 from day_07 import Day07
 
-test1_input = Day07(read_as_string_list('test/res/day07.part1.example'))
-test2_input = Day07(read_as_string_list('test/res/day07.part2.example'))
-local_test =  file_exists('test/res/day07.in')
-aoc_input = Day07(read_as_string_list('test/res/day07.in')) if local_test else None
+test1_input = Day07(read_as_string_list('res/day07.part1.example'))
+test2_input = Day07(read_as_string_list('res/day07.part2.example'))
+local_test =  file_exists('res/day07.in')
+aoc_input = Day07(read_as_string_list('res/day07.in')) if local_test else None
 
 
 def test_solve_1_example():

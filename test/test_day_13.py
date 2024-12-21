@@ -3,9 +3,9 @@ from resources import file_exists, read_as_string_list
 
 from day_13 import Day13
 
-local_test =  file_exists('test/res/day13.in')
-test_day = Day13(read_as_string_list('test/res/day13.example'))
-input_day = Day13(read_as_string_list('test/res/day13.in')) if local_test else None
+local_test =  file_exists('res/day13.in')
+test_day = Day13(read_as_string_list('res/day13.example'))
+input_day = Day13(read_as_string_list('res/day13.in')) if local_test else None
 
 
 def test_solve_1_example():

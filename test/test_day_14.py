@@ -3,11 +3,11 @@ from resources import file_exists, read_as_string_list
 
 from day_14 import Day14
 
-local_test =  file_exists('test/res/day14.in')
+local_test =  file_exists('res/day14.in')
 test_input = Day14(['Comet can fly 14 km/s for 10 seconds, but then must rest for 127 seconds.',
                     'Dancer can fly 16 km/s for 11 seconds, but then must rest for 162 seconds.'],
                    1000)
-aoc_input = Day14(read_as_string_list('test/res/day14.in')) if local_test else None
+aoc_input = Day14(read_as_string_list('res/day14.in')) if local_test else None
 
 
 def test_solve_1_example():

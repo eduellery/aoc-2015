@@ -4,8 +4,8 @@ from resources import file_exists, read_as_int_list
 
 from day_24 import Day24
 
-local_test =  file_exists('test/res/day24.in')
-aoc_input = Day24(read_as_int_list('test/res/day24.in')) if local_test else None
+local_test =  file_exists('res/day24.in')
+aoc_input = Day24(read_as_int_list('res/day24.in')) if local_test else None
 
 
 @pytest.mark.parametrize("test_input, expected", [

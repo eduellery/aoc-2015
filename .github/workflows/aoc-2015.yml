@@ -30,4 +30,6 @@ jobs:
       run: uv run ruff check
 
     - name: Test it
-      run: uv run pytest test
+      run: |
+        cd test
+        uv run pytest test

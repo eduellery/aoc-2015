@@ -3,7 +3,7 @@ from resources import file_exists
 
 from day_25 import Day25
 
-local_test =  file_exists('test/res/day25.in')
+local_test =  file_exists('res/day25.in')
 aoc_input = Day25(3_010, 3_019)
 
 

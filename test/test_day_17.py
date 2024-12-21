@@ -3,9 +3,9 @@ from resources import file_exists, read_as_int_list
 
 from day_17 import Day17
 
-local_test =  file_exists('test/res/day17.in')
+local_test =  file_exists('res/day17.in')
 test_input = Day17([20, 15, 10, 5, 5], 25)
-aoc_input = Day17(read_as_int_list('test/res/day17.in')) if local_test else None
+aoc_input = Day17(read_as_int_list('res/day17.in')) if local_test else None
 
 
 def test_solve_1_example():

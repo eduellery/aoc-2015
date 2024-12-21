@@ -3,8 +3,8 @@ from resources import file_exists, read_as_int_list
 
 from day_20 import Day20
 
-local_test =  file_exists('test/res/day20.in')
-aoc_input = Day20(read_as_int_list('test/res/day20.in')[0]) if local_test else None
+local_test =  file_exists('res/day20.in')
+aoc_input = Day20(read_as_int_list('res/day20.in')[0]) if local_test else None
 
 
 @pytest.mark.parametrize("test_input, expected", [

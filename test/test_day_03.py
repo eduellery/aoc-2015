@@ -3,8 +3,8 @@ from resources import file_exists, read_as_string
 
 from day_03 import Day03
 
-local_test =  file_exists('test/res/day03.in')
-aoc_input = Day03(read_as_string('test/res/day03.in')) if local_test else None
+local_test =  file_exists('res/day03.in')
+aoc_input = Day03(read_as_string('res/day03.in')) if local_test else None
 
 
 @pytest.mark.parametrize("test_input, expected", [
