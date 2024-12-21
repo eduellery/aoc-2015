@@ -1,6 +1,6 @@
 # [Advent of Code 2015](https://adventofcode.com/2015)
 
-![Tests](https://github.com/eduellery/aoc-2015/actions/workflows/python-package.yml/badge.svg)
+![Tests](https://github.com/eduellery/aoc-2015/actions/workflows/aoc-2015.yml/badge.svg)
 
 My answers for Advent of Code 2015.[^disclaimer]
 
@@ -138,7 +138,7 @@ TOTAL                 747      0   100%
 
 ### Advent of Code 2015 Final Art
 
-![Advent of Code 2015 Final Art](blog/aoc2015.png "Advent of Code 2015 Final Art")
+![Advent of Code 2015 Final Art](doc/aoc2015.png "Advent of Code 2015 Final Art")
 
 ### Credits
 
