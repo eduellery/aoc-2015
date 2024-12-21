@@ -32,4 +32,4 @@ jobs:
     - name: Test it
       run: |
         cd test
-        uv run pytest test
+        uv run pytest
