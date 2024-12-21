@@ -31,5 +31,6 @@ jobs:
 
     - name: Test it
       run: |
+        for i in {1..5}; do ./get_input.sh $i; done
         cd test
         uv run pytest
