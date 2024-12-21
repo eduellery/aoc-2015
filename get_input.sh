@@ -16,7 +16,7 @@ fi
 
 if [ -z "$AOC_SESSION" ]; then
     echo "no session found"
-    exit 1
+    exit 0
 fi
 
 D2=$(printf "%02d" $DAY)
