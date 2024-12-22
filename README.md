@@ -11,10 +11,9 @@ My answers for Advent of Code 2015.[^disclaimer]
 Language of choice: [Python 3](https://www.python.org/)
 
 * [Wikipedia - Python](https://en.wikipedia.org/wiki/Python_(programming_language))
-* [mypy](http://mypy-lang.org/)
-* [Flake8](https://flake8.pycqa.org/)
+* [UV](https://docs.astral.sh/uv/)
+* [Ruff](https://docs.astral.sh/ruff/)
 * [pytest](https://docs.pytest.org/)
-* [tox](https://pypi.org/project/tox/)
 
 ### History
 
