@@ -34,5 +34,6 @@ jobs:
         for i in {1..25}; do ./get_input.sh $i; done
         cd test
         uv run pytest
+        uv run pytest-cov
       env:
           AOC_SESSION: ${{ secrets.AOC_SESSION }}
