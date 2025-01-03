@@ -34,71 +34,68 @@ I actually started Advent of Code in 2017 using Java. I decided to do the previo
 Some `pytest` + `coverage` statistics:
 
 ```
-=========================== test session starts ============================
-platform darwin -- Python 3.8.9, pytest-6.2.5, py-1.11.0, pluggy-1.0.0
-configfile: pyproject.toml, testpaths: test
-plugins: cov-2.12.1
-collected 140 items                                                        
-
-test/test_day_01.py ..............                                   [ 10%]
-test/test_day_02.py ......                                           [ 14%]
-test/test_day_03.py ........                                         [ 20%]
-test/test_day_04.py .....                                            [ 23%]
-test/test_day_05.py ......                                           [ 27%]
-test/test_day_06.py .....                                            [ 31%]
-test/test_day_07.py ..                                               [ 32%]
-test/test_day_08.py ....                                             [ 35%]
-test/test_day_09.py ....                                             [ 38%]
-test/test_day_10.py ..                                               [ 40%]
-test/test_day_11.py ....                                             [ 42%]
-test/test_day_12.py ..............                                   [ 52%]
-test/test_day_13.py ...                                              [ 55%]
-test/test_day_14.py ....                                             [ 57%]
-test/test_day_15.py ....                                             [ 60%]
-test/test_day_16.py ..                                               [ 62%]
-test/test_day_17.py ....                                             [ 65%]
-test/test_day_18.py ....                                             [ 67%]
-test/test_day_19.py ....                                             [ 70%]
-test/test_day_20.py ............................                     [ 90%]
-test/test_day_21.py ....                                             [ 93%]
-test/test_day_22.py ..                                               [ 95%]
-test/test_day_23.py ..                                               [ 96%]
-test/test_day_24.py ...                                              [ 98%]
-test/test_day_25.py ..                                               [100%]
-
----------- coverage: platform darwin, python 3.8.9-final-0 -----------
-Name                Stmts   Miss  Cover   Missing
--------------------------------------------------
-src/aoc/day_01.py      13      0   100%
-src/aoc/day_02.py      14      0   100%
-src/aoc/day_03.py      30      0   100%
-src/aoc/day_04.py      14      0   100%
-src/aoc/day_05.py      15      0   100%
-src/aoc/day_06.py      36      0   100%
-src/aoc/day_07.py      37      0   100%
-src/aoc/day_08.py      12      0   100%
-src/aoc/day_09.py      28      0   100%
-src/aoc/day_10.py      16      0   100%
-src/aoc/day_11.py      17      0   100%
-src/aoc/day_12.py      20      0   100%
-src/aoc/day_13.py      32      0   100%
-src/aoc/day_14.py      25      0   100%
-src/aoc/day_15.py      54      0   100%
-src/aoc/day_16.py      24      0   100%
-src/aoc/day_17.py       9      0   100%
-src/aoc/day_18.py      53      0   100%
-src/aoc/day_19.py      23      0   100%
-src/aoc/day_20.py      28      0   100%
-src/aoc/day_21.py      56      0   100%
-src/aoc/day_22.py      77      0   100%
-src/aoc/day_23.py      33      0   100%
-src/aoc/day_24.py      70      0   100%
-src/aoc/day_25.py      11      0   100%
--------------------------------------------------
-TOTAL                 747      0   100%
-
-
-===================== 140 passed in 283.70s (0:04:43) ======================
+============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/runner/work/aoc-2015/aoc-2015/test
+configfile: pyproject.toml
+plugins: cov-6.0.0
+collected 169 items
+test_day_01.py ..............                                            [  8%]
+test_day_02.py ......                                                    [ 11%]
+test_day_03.py ........                                                  [ 16%]
+test_day_04.py .......                                                   [ 20%]
+test_day_05.py ......                                                    [ 24%]
+test_day_06.py ......                                                    [ 27%]
+test_day_07.py ....                                                      [ 30%]
+test_day_08.py ....                                                      [ 32%]
+test_day_09.py ....                                                      [ 34%]
+test_day_10.py ............                                              [ 42%]
+test_day_11.py ......                                                    [ 45%]
+test_day_12.py ..............                                            [ 53%]
+test_day_13.py ....                                                      [ 56%]
+test_day_14.py ....                                                      [ 58%]
+test_day_15.py .....                                                     [ 61%]
+test_day_16.py ....                                                      [ 63%]
+test_day_17.py ....                                                      [ 66%]
+test_day_18.py ....                                                      [ 68%]
+test_day_19.py ....                                                      [ 71%]
+test_day_20.py ............................                              [ 87%]
+test_day_21.py ....                                                      [ 89%]
+test_day_22.py ....                                                      [ 92%]
+test_day_23.py ....                                                      [ 94%]
+test_day_24.py .....                                                     [ 97%]
+test_day_25.py ....                                                      [100%]
+---------- coverage: platform linux, python 3.13.1-final-0 -----------
+Name                                                Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------------------
+/home/runner/work/aoc-2015/aoc-2015/src/day_01.py      13      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_02.py      13      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_03.py      29      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_04.py      14      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_05.py      14      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_06.py      35      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_07.py      36      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_08.py      11      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_09.py      27      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_10.py      16      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_11.py      17      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_12.py      19      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_13.py      31      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_14.py      24      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_15.py      53      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_16.py      24      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_17.py       8      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_18.py      50      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_19.py      23      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_20.py      28      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_21.py      57      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_22.py      76      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_23.py      34      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_24.py      68      0   100%
+/home/runner/work/aoc-2015/aoc-2015/src/day_25.py      11      0   100%
+---------------------------------------------------------------------------------
+TOTAL                                                 731      0   100%
+======================= 169 passed in 276.77s (0:04:36) ========================
 ```
 
 <!--- advent_readme_stars table --->
