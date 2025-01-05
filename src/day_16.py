@@ -32,7 +32,9 @@ class Day16:
                 cname, _, amt = compound.partition(':')
                 self.aunts[name][cname] = int(amt)
 
-    def find_matches(self, criteria, compares={}) -> Generator[str]:
+    def find_matches(self, criteria, compares=None) -> Generator[str]:
+        if compares is None:
+            compares = {}
         for name, aunt in self.aunts.items():
             for k, v in criteria.items():
                 compare = compares.get(k, lambda a, c: a == c)
