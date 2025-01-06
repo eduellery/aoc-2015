@@ -81,22 +81,21 @@ class Day22:
             new_games = []
             for game in all_games:
                 game.apply_effects()
-                if not game.boss_defeated():
-                    game.player_health -= 1 if hardcore else 0
-                    for spell in spell_cost:
-                        if game.not_available(spell):
-                            continue
-                        new_game = deepcopy(game)
-                        new_game.cast(spell)
-                        if new_game.mana_spent > low_score:
-                            continue
-                        new_game.apply_effects()
-                        if new_game.boss_defeated() and new_game.mana_spent < low_score:
-                            low_score = new_game.mana_spent
-                            continue
-                        new_game.attack()
-                        if new_game.player_alive():
-                            new_games.append(new_game)
+                game.player_health -= 1 if hardcore else 0
+                for spell in spell_cost:
+                    if game.not_available(spell):
+                        continue
+                    new_game = deepcopy(game)
+                    new_game.cast(spell)
+                    if new_game.mana_spent > low_score:
+                        continue
+                    new_game.apply_effects()
+                    if new_game.boss_defeated() and new_game.mana_spent < low_score:
+                        low_score = new_game.mana_spent
+                        continue
+                    new_game.attack()
+                    if new_game.player_alive():
+                        new_games.append(new_game)
             all_games = new_games
         return low_score
 

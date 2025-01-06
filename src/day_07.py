@@ -29,7 +29,7 @@ class Day07:
                     res = ~self.calculate(ops[1], results) & 0xffff
                 elif op == 'RSHIFT':
                     res = self.calculate(ops[0], results) >> self.calculate(ops[2], results)
-                elif op == 'LSHIFT':
+                else: # op == 'LSHIFT'
                     res = self.calculate(ops[0], results) << self.calculate(ops[2], results)
             results[register] = res
         return results[register]

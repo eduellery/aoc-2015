@@ -20,7 +20,7 @@ class Day06:
                         lights[x][y] = 1
                     elif action == OFF:
                         lights[x][y] = 0
-                    elif action == TOGGLE:
+                    else: # action == TOGGLE
                         lights[x][y] = 1 - lights[x][y]
         return sum(map(sum, lights))
 

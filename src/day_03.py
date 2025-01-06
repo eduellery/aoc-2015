@@ -13,7 +13,7 @@ class Day03:
             x -= 1
         elif direction == '^':
             y += 1
-        elif direction == 'v':
+        else: # direction == 'v'
             y -= 1
         return x, y
 
