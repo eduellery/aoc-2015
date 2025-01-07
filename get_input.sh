@@ -7,7 +7,7 @@ if [ -z "$DAY" ]; then
     DAY=$(date +%e | tr -d " ")
 fi
 
-if [ -n "$AOC_SESSION" ]; then
+if [ -n "$AOC_SESSION" ] && [ -z "$AOC_DEBUG"]; then
     echo "session is present"
 elif [ -r .aocsession ]; then
     echo "getting value from .aocsession file"
@@ -21,7 +21,7 @@ fi
 
 D2=$(printf "%02d" $DAY)
 
-echo "getting puzzle input for day $D2 for year $YR"
+echo "getting puzzle input for year $YR day $D2"
 
 (
 UA="https://github.com/eduellery/aoc-2015"
