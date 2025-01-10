@@ -13,7 +13,7 @@ aoc_input = Day03(read_as_string('res/day03.in')) if local_test else None
     ('^v^v^v^v^v', 2),
 ])
 def test_solve_1_examples(test_input: str, expected: int):
-    assert Day03(list(test_input)).solve1() == expected
+    assert Day03(test_input).solve1() == expected
 
 
 @pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')

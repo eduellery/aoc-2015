@@ -9,8 +9,8 @@ aoc_input = Day06(read_as_string_list('res/day06.in')) if local_test else None
 
 
 def test_solve_1_examples():
-    test: list[str] = ['turn on 0,0 through 999,999', 'toggle 0,0 through 999,0', 'turn off 499,499 through 500,500']
-    assert Day06(test).solve1() == 998_996
+    test_input: list[str] = ['turn on 0,0 through 999,999', 'toggle 0,0 through 999,0', 'turn off 499,499 through 500,500']
+    assert Day06(test_input).solve1() == 998_996
 
 
 @pytest.mark.skipif(not local_test, reason = 'Input files can not be shared')

@@ -12,7 +12,7 @@ aoc_input = Day24(read_as_int_list('res/day24.in')) if local_test else None
     ([1, 2, 3, 4, 5, 7, 8, 9, 10, 11],99),
     ([1, 4, 5, 11, 13, 17, 19, 23, 29],319),
 ])
-def test_solve_1_examples(test_input: list[str], expected: int):
+def test_solve_1_examples(test_input: list[int], expected: int):
     assert Day24(test_input).solve1() == expected
 
 
