@@ -34,7 +34,6 @@ ignore = [
 
 [tool.mypy]
 show_column_numbers = true
-import_untyped = false
 
 [tool.uv.workspace]
 members = ["test"]

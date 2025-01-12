@@ -15,6 +15,7 @@ Language of choice: [Python 3](https://www.python.org/)
 * [Ruff](https://docs.astral.sh/ruff/)
 * [pytest](https://docs.pytest.org/)
 * [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/)
+* [mypy](https://mypy-lang.org/)
 
 ### History
 
