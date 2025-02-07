@@ -25,11 +25,11 @@ I actually started Advent of Code in 2017 using Java. I decided to do the previo
 
 | Problem | Solution | Blog Post |
 | ------- | -------- | --------- |
-| [Day 3: Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3) |[day_03.py](src/aoc/day_03.py)|[day03.md](doc/day03.md)|
-| [Day 5: Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) |[day_05.py](src/aoc/day_05.py)|[day05.md](doc/day05.md)|
-| [Day 9: All in a Single Night](https://adventofcode.com/2015/day/9)                  |[day_09.py](src/aoc/day_09.py)|[day09.md](doc/day09.md)|
-| [Day 11: Corporate Policy](https://adventofcode.com/2015/day/11)                     |[day_11.py](src/aoc/day_11.py)|[day11.md](doc/day11.md)|
-| [Day 15: Science for Hungry People](https://adventofcode.com/2015/day/15)            |[day_15.py](src/aoc/day_15.py)|[day15.md](doc/day15.md)|
+| [Day 3: Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3) |[day_03.py](src/day_03.py)|[day03.md](doc/day03.md)|
+| [Day 5: Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) |[day_05.py](src/day_05.py)|[day05.md](doc/day05.md)|
+| [Day 9: All in a Single Night](https://adventofcode.com/2015/day/9)                  |[day_09.py](src/day_09.py)|[day09.md](doc/day09.md)|
+| [Day 11: Corporate Policy](https://adventofcode.com/2015/day/11)                     |[day_11.py](src/day_11.py)|[day11.md](doc/day11.md)|
+| [Day 15: Science for Hungry People](https://adventofcode.com/2015/day/15)            |[day_15.py](src/day_15.py)|[day15.md](doc/day15.md)|
 
 ### Statistics
 
